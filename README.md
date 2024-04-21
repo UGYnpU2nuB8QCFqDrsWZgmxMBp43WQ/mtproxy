@@ -27,11 +27,11 @@
 
 ```bash
 rm -rf /home/mtproxy && mkdir /home/mtproxy && cd /home/mtproxy
-curl -fsSL -o mtproxy.sh https://github.com/ellermister/mtproxy/raw/master/mtproxy.sh
+curl -fsSL -o mtproxy.sh https://github.com/UGYnpU2nuB8QCFqDrsWZgmxMBp43WQ/mtproxy/raw/master/mtproxy.sh
 bash mtproxy.sh
 ```
 
- ![mtproxy.sh](https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.jpg)
+ ![mtproxy.sh](https://raw.githubusercontent.com/UGYnpU2nuB8QCFqDrsWZgmxMBp43WQ/mtproxy/master/mtproxy.jpg)
 
 ### 使用Docker | 白名单 MTProxy Docker 镜像
 
@@ -59,7 +59,7 @@ docker run -d \
 -e domain="cloudflare.com" \
 -p 8080:80 \
 -p 8443:443 \
-ellermister/mtproxy
+UGYnpU2nuB8QCFqDrsWZgmxMBp43WQ/mtproxy
  ```
 **镜像默认开启了 IP 段白名单**，如果你不需要可以配置 `ip_white_list="OFF"` 取消：
 
@@ -72,7 +72,7 @@ docker run -d \
 -e ip_white_list="OFF" \
 -p 8080:80 \
 -p 8443:443 \
-ellermister/mtproxy
+UGYnpU2nuB8QCFqDrsWZgmxMBp43WQ/mtproxy
 ```
 
 `ip_white_list` 选项:
@@ -91,7 +91,7 @@ docker logs -f mtproxy
 
 连接端口记得修改为你映射后的外部端口，如上文例子中都是`8443`，在连接时修改端口。
 
-更多使用请参考： https://hub.docker.com/r/ellermister/mtproxy
+更多使用请参考： https://hub.docker.com/r/UGYnpU2nuB8QCFqDrsWZgmxMBp43WQ/mtproxy
 
 ## 使用方式
 
