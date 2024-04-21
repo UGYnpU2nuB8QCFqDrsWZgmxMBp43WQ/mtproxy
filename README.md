@@ -6,9 +6,6 @@
 
  [English](README-en.md)
 
-## 交流群组
-
-Telegram 群组：https://t.me/EllerHK
 
 ## 安装方式
 
