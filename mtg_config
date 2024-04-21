@@ -1,0 +1,7 @@
+#!/bin/bash
+secret="548593a9c0688f4f7d9d57377897d964"
+port=16546
+web_port=8888
+domain="cloudflare.com"
+proxy_tag="ff8f35b8fd3fadf6c019cc15f83b13a6"
+provider=2
